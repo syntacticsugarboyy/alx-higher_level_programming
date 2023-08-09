@@ -3,4 +3,5 @@
 - The Zen of Python is a collection of principles for writing Pythonic code.
 -
 - Indexing and Slicing are techniques of string manipultion in Python.
-- The official Python coding style is PEP8 aka ... Python also has its own linter...
+- The official Python coding style is pycodestyle.
+- Python also has its own linter, PEP8 aka PyCode.
