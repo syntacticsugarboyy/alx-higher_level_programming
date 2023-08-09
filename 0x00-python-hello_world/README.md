@@ -1,0 +1,6 @@
+- Python is a higher level programming language created bu Guido van Rossum.
+- Python is named after the BBC show "Monty Python Flying Circles" lmao...
+- The Zen of Python is a collection of principles for writing Pythonic code.
+-
+- Indexing and Slicing are techniques of string manipultion in Python.
+- The official Python coding style is PEP8 aka ... Python also has its own linter...
