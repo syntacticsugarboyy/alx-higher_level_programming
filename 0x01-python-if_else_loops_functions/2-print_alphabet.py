@@ -1,3 +1,5 @@
 #!/usr/bin/python3
+letters = ''
 for i in range(97, 123):
-    print(chr(i), sep = '', end = '')
+    letters += '' + chr(i)
+print(letters, sep = '', end = '')
