@@ -2,4 +2,4 @@
 letters = ''
 for i in range(97, 123):
     letters += '' + chr(i)
-print(letters, sep = '', end = '')
+print('{}'.format(letters),end = '')
