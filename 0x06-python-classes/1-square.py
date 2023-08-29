@@ -4,6 +4,7 @@
     Author: syntactic_sugarboyy
 '''
 
+
 class Square:
     ''' Creates a class and an attribute '''
     def __init__(self, size):
