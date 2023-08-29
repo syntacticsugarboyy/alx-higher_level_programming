@@ -3,8 +3,8 @@
 ''' Square Class
     Author: syntactic_sugarboyy
 '''
+
+
 class Square:
-    '''
-    An Empty Class
-    '''
+    ''' An Empty Class '''
     pass
