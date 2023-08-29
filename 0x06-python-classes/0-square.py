@@ -1,3 +1,10 @@
 #!/usr/bin/python3
-class Square(object):
+# -*- coding: utf-8  -*-
+''' Square Class
+    Author: syntactic_sugarboyy
+'''
+class Square:
+    '''
+    An Empty Class
+    '''
     pass
