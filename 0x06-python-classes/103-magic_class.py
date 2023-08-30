@@ -1,26 +1,26 @@
 #!/usr/bin/python3
 '''
-	Magic class 
+Magic class
 '''
 import math
 
 
 class MagicClass:
     '''
-	    Magic class
+    Magic class
 
-	    Attributes:
-        radius (int): integer
+    Attributes:
+    radius (int): integer
     '''
     def __init__(self, radius=0):
         '''
-        	init
+        init
 
-        	Args:
-            	radius (int): integer
+        Args:
+        radius (int): integer
 
-        	Raises:
-            	TypeError: not an int
+        Raises:
+            TypeError: not an int
         '''
 
         self.__radius = 0
