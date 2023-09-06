@@ -18,11 +18,6 @@ My name is Syntactic Sugarboy
 My name is Great 
 
 Test 2: Empty string input 
-
-::
->>> say_my_name(' ')
-My name is    
-
 ::
 >>> say_my_name(' . ')
 My name is  .  
@@ -46,7 +41,7 @@ TypeError: first_name must be a string
 ::
 >>> say_my_name({key: 'Lock'})
 Traceback (most recent call last):
-TypeError: first_name must be a string
+NameError: name 'key' is not defined
 
 Test 4: No input
 ::

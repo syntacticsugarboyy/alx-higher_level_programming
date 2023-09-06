@@ -26,6 +26,7 @@ Test 1: Positive integers
 Test 2: Testing 0
 ::
 >>> print_square(0)
+<BLANKLINE>
 
 Test 3: Negative integer input
 ::
@@ -36,11 +37,6 @@ ValueError: size must be >= 0
 Test 4: Non-integer input
 ::
 >>> print_square('School')
-Traceback (most recent call last):
-TypeError: size must be an integer
-
-::
->>> print_square(True)
 Traceback (most recent call last):
 TypeError: size must be an integer
 

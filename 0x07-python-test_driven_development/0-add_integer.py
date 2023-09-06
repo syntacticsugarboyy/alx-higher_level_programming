@@ -1,4 +1,4 @@
-#!/usr/bin/pyhton3
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 '''
     Adds Integers

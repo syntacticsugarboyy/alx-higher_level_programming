@@ -1,8 +1,15 @@
 #!/usr/bin/python3
 # -*- coding: utf -8 -*-
+'''
+    say_my_name
+    Author: syntacticsugarboyy
+'''
 
 
 def say_my_name(first_name, last_name=""):
+    '''
+        A function that prints my name...
+    '''
     if not isinstance(first_name, str):
         raise TypeError('first_name must be a string')
     if not isinstance(last_name, str):
