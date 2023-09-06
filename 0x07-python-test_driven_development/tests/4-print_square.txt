@@ -1,0 +1,50 @@
+#doctype print_square
+_____________________
+---------------------
+The ``print_square`` Test module
+________________________________
+--------------------------------
+Joining modules...
+::
+>>> print_square = __import__('4-print_square').print_square
+
+Test 1: Positive integers
+::
+>>> print_square(3)
+###
+###
+###
+
+::
+>>> print_square(5)
+#####
+#####
+#####
+#####
+#####
+
+Test 2: Testing 0
+::
+>>> print_square(0)
+
+Test 3: Negative integer input
+::
+>>> print_square(-5)
+Traceback (most recent call last):
+ValueError: size must be >= 0
+
+Test 4: Non-integer input
+::
+>>> print_square('School')
+Traceback (most recent call last):
+TypeError: size must be an integer
+
+::
+>>> print_square(True)
+Traceback (most recent call last):
+TypeError: size must be an integer
+
+::
+>>> print_square(0.05)
+Traceback (most recent call last):
+TypeError: size must be an integer

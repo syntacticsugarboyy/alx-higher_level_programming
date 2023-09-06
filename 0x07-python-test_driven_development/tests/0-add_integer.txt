@@ -1,0 +1,58 @@
+# 0-add_integer.txt
+___________________________	
+---------------------------
+The ``0-add_integer`` module
+____________________________
+----------------------------
+
+Using ``add_integer`` which returns the addition of two arguments.
+-------------------
+
+This is an example text file in reStructuredText format. First import
+``add_integer`` from the ``0-add_integer`` module.
+
+>>> add_integer = __import__('0-add_integer').add_integer
+
+Test 1: a and b as positive integers
+::
+>>> add_integer(10, 20)
+30
+
+Test 2: a as a negative integer
+::
+>>> add_integer(-5, 30)
+25
+
+Test 3: a and b as a float
+::
+>>> add_integer(0.5, 40.25)
+40
+
+Test 4: a without b
+::
+>>> add_integer(2)
+100
+
+Test 5: a as a float and b as an int
+::
+>>> add_integer(3.5, 37)
+40
+
+Test 6: a as an int and b as a negative float
+::
+>>> add_integer(10, -3.5)
+7
+
+Test 8: a as a string
+::
+>>> add_integer(4, 'School')
+Traceback (most recent call last):
+  ...
+TypeError: b must be an integer
+
+Test 9: a and b as non-integers or floats
+::
+>>> add_integer(None)
+Traceback (most recent call last):
+  ...
+TypeError: a must be an integer
