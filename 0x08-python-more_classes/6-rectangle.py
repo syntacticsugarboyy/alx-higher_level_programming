@@ -63,6 +63,7 @@ class Rectangle:
         self.__height = value
 
     number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         '''
             Creates a new instance of Rectangle
