@@ -9,6 +9,11 @@
 def lookup(obj):
     '''
         Returns the list of available attributes and methods of an object
+
+        Args:
+            obj: Objectc under consideration
+
+        Returns:
+            dir_list: list of attributes
     '''
-    dir_list = dir(object)
-    return dir_list
+    return dir(object)
