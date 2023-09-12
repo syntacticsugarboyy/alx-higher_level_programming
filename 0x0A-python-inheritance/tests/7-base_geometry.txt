@@ -1,0 +1,42 @@
+#doctype test
+_____________
+-------------
+The ``7-base_geometry`` module
+------------------------------
+------------------------------
+This is a testfile. First import ``BaseGeometry`` from the ``7-base_geometry``
+module:
+
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+>>> a = BaseGeometry.area
+>>> iv = BaseGeometry.integer_validator
+>>> mod_docs = __import__('7-base_geometry').__doc__
+>>> class_docs = BaseGeometry.__doc__
+>>> area_docs = a.__doc__
+>>> int_docs = iv.__doc__
+>>> len(mod_docs) > 0
+True
+
+>>> len(class_docs) > 0
+True
+
+>>> len(class_docs) > 0
+True
+>>> len(area_docs) > 0
+True
+>>> len(int_docs) > 0
+True
+>>> bg = BaseGeometry()
+>>> type(bg) == BaseGeometry
+True
+>>> type(BaseGeometry.__dict__['area'])
+<class 'function'>
+>>> bg.__class__.area()
+Traceback (most recent call last):
+TypeError: area() missing 1 required positional argument: 'self'
+>>> bg.area(10)
+Traceback (most recent call last):
+TypeError: area() takes 1 positional argument but 2 were given
+>>> bg.area()
+Traceback (most recent call last):
+Exception: area() is not implemented
