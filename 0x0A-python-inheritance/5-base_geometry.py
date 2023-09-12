@@ -5,4 +5,7 @@
 
 
 class BaseGeometry:
+    '''
+        A parent Class named BaseGeometry
+    '''
     pass
