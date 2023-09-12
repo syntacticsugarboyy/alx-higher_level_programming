@@ -25,6 +25,7 @@ class BaseGeometry:
             raise ValueError('{} must be greater than 0'.format(name))
         self.name = value
 
+
 class Rectangle(BaseGeometry):
     '''
         A Rectangle is a Geometric object
