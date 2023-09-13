@@ -6,6 +6,8 @@
 
 
 def write_file(filename="", text=""):
-    ''' writes text into a file '''
-    with open('filename', 'w', encoding='utf-8') as file:
+    '''
+        Writes text into a file
+    '''
+    with open(filename, 'w', encoding='utf-8') as file:
         return file.write(text)
