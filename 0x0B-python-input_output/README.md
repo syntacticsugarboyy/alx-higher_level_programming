@@ -19,4 +19,7 @@ Python is Awesome!
   of data between software or applications.
 
 * serialization is a term used in JSON for converting data to string format.
-* deserialization is the reconstructing of the data from the string format.
+* deserialization is the reconstructing of the data from the string format
+
+* json.dumps() converts a python data structure to a JSON format.
+* json.loads() converts a JSON string to a python data type.
