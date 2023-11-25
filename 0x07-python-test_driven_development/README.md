@@ -1,23 +1,14 @@
-- Python has been really awesome so far. It doesn't bite and doesn't have much
-  appetite for my tears. I'm still keeping a safe distance as I don't want to be
-  constricted lol.
+###   Python - Test-driven development
+* Python is awesome! It has provisions for multiple forms of testing.
 
-- Interactive testing, also known as manual testing is tesing that is done with
-  no form of automation(i.e manually). Direct interaction is key in such tests.
+* An interactive test is a manual test involving user input and expected output
 
-- The importance of tests cannot be over-emphasized. From ensuring a hitch-free
-  production to protecting firms' reputation. Problems that arise after
-  deployment are expensive and dangerous, hence the needadequate tests after
-  production.
+* A non-interactive test is an automated test.
 
-- There are quite a number of ways to use Docstrings to create tests;
-  Within the module in form of comments
-  In a separate module with extension .py(python file)
-  In a separate directory with extension .txt(text file)
+* Tests are important for every piece of code/software written as it helps in
+  bug detection, code efficiency, and the overall performance of the software.
 
-- Documentation...
+* Docstrings are one of the available testing methods provided by Python. It is
+  very advantageous to other testing methods in small-scale scenarios.
 
-- The basic flags for creating tests are -m -v
-
-- Edge cases must also be covered as they could otherwise compromise quality
-  of the program and possibly create vunerabilities for attacks...
+* Edge cases are very important as it tracks abnormalities in a code's behavior
