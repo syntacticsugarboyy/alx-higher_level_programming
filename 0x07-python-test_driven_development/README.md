@@ -12,3 +12,5 @@
   very advantageous to other testing methods in small-scale scenarios.
 
 * Edge cases are very important as it tracks abnormalities in a code's behavior
+
+* The flags involved in python tests include -v, -m, etc. 
