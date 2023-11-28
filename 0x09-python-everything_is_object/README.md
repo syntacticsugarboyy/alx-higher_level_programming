@@ -12,6 +12,9 @@
 * Mutable types are data types that can be changed and Immutable types are
   vice versa.
 
-* Built-in mutable types include lists, integers, etc.
+* Built-in mutable types include lists, integers, frozensets,etc.
 
 * Built-in immutable types include strings, etc.
+
+* Tuples, due to their compound nature, could be either mutable or immutable, depending on
+  what data type it contains.
