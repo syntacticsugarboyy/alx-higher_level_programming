@@ -62,13 +62,13 @@ class Rectangle:
         '''
             Returns the perimeter of the Rectangle
         '''
-        if self.__width ==  0 or self.__height == 0:
+        if self.__width == 0 or self.__height == 0:
             return (0)
         return (2 * (self.__width + self.__height))
 
     def __str__(self):
         string = ''
-        if self.__width ==  0 or self.__height == 0:
+        if self.__width == 0 or self.__height == 0:
             return ('')
         for height in range(self.__height):
             for width in range(self.__width):
