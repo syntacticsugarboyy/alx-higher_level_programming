@@ -68,12 +68,12 @@ class Rectangle:
 
     def __str__(self):
         string = ''
-        if self.__width ==  0 or self.__height == 0:
+        if self.__width == 0 or self.__height == 0:
             return ('')
         for height in range(self.__height):
             for width in range(self.__width):
-                string += '#'
-            string += '\n'
+                string = string + '#'
+            string = string + '\n'
         return string[:-1]
 
     def __repr__(self):
