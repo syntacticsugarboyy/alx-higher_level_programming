@@ -10,6 +10,7 @@ class Rectangle(Base):
     '''
         A Rectangle is a Base
     '''
+
     @property
     def width(self):
         '''
@@ -91,3 +92,9 @@ class Rectangle(Base):
         self.__x = x
         self.__y = y
         super().__init__(id)
+
+    def area(self):
+        '''
+            Returns the area
+        '''
+        return (self.__width * self.__height)
