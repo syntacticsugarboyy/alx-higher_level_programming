@@ -70,4 +70,8 @@ class Rectangle(Base):
         '''
             Instantiation
         '''
+        self.__width = width
+        self.__height = height
+        self.__x = x
+        self.__y = y
         super().__init__(id)
