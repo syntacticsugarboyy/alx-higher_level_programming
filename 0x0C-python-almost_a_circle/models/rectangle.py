@@ -70,4 +70,4 @@ class Rectangle(Base):
         '''
             Instantiation
         '''
-        super().__init__()
+        super().__init__(id)
