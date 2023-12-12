@@ -74,7 +74,7 @@ class Rectangle(Base):
     @y.setter
     def y(self, value):
         '''
-            Sets y
+            Sets and validates y
         '''
         if not isinstance(value, int):
             raise TypeError('y must be an integer')
